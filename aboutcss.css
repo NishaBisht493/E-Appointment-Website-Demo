@@ -1,0 +1,108 @@
+*{
+    font-family: 'Poppins';
+}
+#heading{
+    /* border:1px solid black; */
+    color: #1a1a74;
+    font-size: 36px;
+    text-align: center;
+    margin: 100px;
+    border-bottom: 1px solid gray;
+    margin-bottom: 0px;
+}
+#head h2{
+    border-bottom:1px solid gray;
+    /* color: #056741; */
+    color: #008086;
+    font-size: 24px;
+    text-align: center;
+    margin: 10px;
+
+}
+.section{
+    text-align: center;
+    margin: 0px 400px;
+    /* border: 1px solid black; */
+}
+.section img{
+    height: 200px;
+    width: 400px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+}
+.boxes{
+    /* border: 1px solid gray; */
+    border-right: 1px solid gray;
+    margin: 20px;
+    padding: 10px;
+}
+.boxes h3{
+    color: #008086;
+    /* color: #056741; */
+}
+.text{
+    font-size: 12px;
+}
+.offer{
+    display: flex;
+    flex-direction: row;
+    /* border: 1px solid black; */
+    margin: 50px 200px;
+    padding: 10px;
+}
+.offer-text{
+    padding: 10px;
+}
+.offer-text h3{
+    /* color: #056741; */
+    color: #008086;
+    font-size: 25px;
+}
+/*=========================================================*/
+footer{
+    /* border:2px solid darkblue; */
+    background-color:#23c3cb;
+    /* color: white; */
+    font-weight: bold;
+    text-align: center;
+    
+    /* margin-bottom: 0px; */
+}
+.follow{
+    width: 50px;
+    height: 50px;
+    margin-right:  35px;
+    border-radius: 50px;
+    /* border: 2px solid saddlebrown; */
+}
+footer div {
+    width: 48%;
+    /* border: 2px solid seagreen; */
+    display: inline-block;
+    /* text-align: center; */
+    margin: 10px;
+    padding: 10px 0px;
+}
+.getapp:hover, .follow:hover{
+    transform: scale(105%);
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+.getapp{
+    width: 150px;
+    height: 50px;
+    margin-right:  35px;
+    /* border: 2px solid saddlebrown; */
+}
+
+/*=========================================================*/
+#copyright{
+    text-align: center;
+    background-color:#008086;
+    margin: 0px;
+    /* margin-top: 0px; */
+    padding: 15px 0px;
+    /* color: white; */
+}
